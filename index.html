@@ -4,60 +4,122 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Olena Ryndina CV</title>
+	<link rel="stylesheet" href="cv.css">
 </head>
 <body>
-	<img src="me.jpg" width="200px" height="200px">
-	<h1>Елена Рындина</h1>
-	<div class="contacts">
-		<span>e-mail:</span> <span>olenaryndina1111@gmail.com</span>
-	</div>
-	<section class="profSkills">
-		<h2>Профессиональные навыки:</h2>
-		<ul>
-			<li>JavaScript, TypeScript, HTML, CSS</li>
-			<li>Angular</li>
-			<li>Angular Material, bootstrap</li>
-			<li>Adobe Photoshop, Illustrator, InDesign</li>
-			<li>GIT</li>
-			<li>Webpack, Gulp</li>
-			<li>Node.JS</li>
-		</ul>
+
+	<section class="profInfo">
+		<div class="info">	
+		    <img src="me.jpg" width="200px" height="200px">
+	        <h1>Елена Рындина</h1>
+	        <p class="contacts">
+		        <span>e-mail:</span> <span>olenaryndina1111@gmail.com</span>
+	        </p>
+	    </div>
+	    <div class="profSkills">	
+		    <h2>Профессиональные навыки:</h2>
+		    <ul>
+			    <li>JavaScript, TypeScript, HTML, CSS</li>
+			    <li>Angular</li>
+			    <li>Angular Material, bootstrap</li>
+			    <li>Adobe Photoshop, Illustrator, InDesign</li>
+			    <li>GIT</li>
+			    <li>Webpack, Gulp</li>
+			    <li>Node.JS</li>
+		    </ul>
+		</div>
 	</section>
-	<section class="workExperience">
-		<h2>Опыт работы:</h2>
-		<ul>
-			<li><span>апрель 2014 г. - по настоящее время </span>
-                <span>дизайнер-фрилансер.</span><hr>
-                <p>создание графики (иконки, логотипы), UI-компонентов для приложений и сайтов, создание макетов для полиграфии, наружной рекламы</p>
-			</li>
-			<li><span>июнь 2012 г. - апрель 2014 г.</span>
-                <span>дизайнер (Компания Prostor («Стиль Д»))</span><hr>
-                <p>оформление полиграфической продукции и наружной рекламы, разработка графических элементов, баннеров для web-сайта согласно фирменному стилю компании.</p>
-			</li>
-			<li><span>июль 2007 г. - июнь 2012 г.</span>
-                <span>дизайнер (ПриватБанк)</span><hr>
-                <p> оформление полиграфической продукции и наружной рекламы.</p>
-			</li>
-			<li><span>февраль 2002 г. - июль 2007 г. </span>
-                <span>дизайнер (ООО с ИИ “Типография “Украина“, полиграфическое производство.)</span><hr>
-                <p>верстка журналов, каталогов, подготовка макетов к печати.</p>
-			</li>
-		</ul>
-	</section>
+
 	<section class="education">
-		<h2>Образование:</h2>
-		<ul>
-			<li><p><span>январь 2017 - апрель 2017 гг - </span>IT Академия SoftServe, курс: WebUI Development</p></li>
-			<li><p><span>ноябрь 2014 - март 2015 гг -  </span>учебный центр LevelUp, курс: “Front-end разработка”</p></li>
-			<li><p><span>2006 - 2009 гг. - </span>Студия изобразительного искусства “Элит-альтернатива“.</p></li>
-			<li><p><span>2005 - 2006 гг. - </span>гуманитарная Академия им. Кручининой, курс: “Дизайн”.</p></li>
-			<li><p><span>1998-2001 гг. - </span>Национальная металлургическая академия Украины. Гуманитарный факультет, специальность: референт-переводчик (английский язык).</p></li>
-			<li><p><span>1997-2002 гг. - </span>Национальная металлургическая академия Украины. Механико-машиностроительный факультет, специальность: инженер-эколог.</p></li>
-		</ul>
+		<table>
+			<caption>Образование:</caption>
+				<th>Учебный курс</th>
+				<th>год</th>
+				<tr>
+					<td><span class="prof">	WebUI Development</span> <br>	
+						<span class="description">	IT Академия SoftServe</span>
+					</td>
+					<td>январь 2017 г. - апрель 2017 г.</td>
+				</tr>
+				<tr>
+					<td><span class="prof">Front-end разработка</span> <br>
+					    <span class="description">учебный центр LevelUp</span>
+					</td>
+					<td>ноябрь 2014 г. - март 2015 г.</td>
+				</tr>
+				<tr>
+					<td><span class="prof">Живопись</span> <br>
+					    <span class="description">Студия изобразительного искусства “Элит-альтернатива“.</span>
+					</td>
+					<td>2006 г. - 2009 г.</td>
+				</tr>
+				<tr>
+					<td><span class="prof">Дизайн</span> <br>
+					    <span class="description">гуманитарная Академия им. Кручининой</span>
+					</td>
+					<td>2005 г. - 2006 г.</td>
+				</tr>
+				<tr>
+					<td><span class="prof">Референт-переводчик (английский язык)</span> <br>
+					    <span class="description">Национальная металлургическая академия Украины. Гуманитарный факультет</span>
+					</td>
+					<td>1998 г. - 2001 г.</td>
+				</tr>
+				<tr>
+					<td><span class="prof">Инженер-эколог</span> <br>
+						<span class="description"> Национальная металлургическая Академия Украины</span>
+					</td>
+					<td>1997 г. - 2002 г.</td>
+				</tr>
+		</table>
 	</section>
+
+	<section class="workExperience">
+		<table>
+			<caption>Опыт работы:</caption>
+			<th>Компания</th>
+			<th>Должность</th>
+			<th>год</th>
+			<tr>
+				<td>Фриланс</td>
+				<td><span class="prof"> дизайнер </span><br> 
+				    <span class="description">создание графики (иконки, логотипы), UI-компонентов для приложений и сайтов, создание макетов для полиграфии, наружной рекламы</span>
+				</td>
+				<td>апрель 2014 г. - по настоящее время</td>
+			</tr>
+			<tr>
+				<td>Компания Prostor («Стиль Д»)</td>
+				<td><span class="prof"> дизайнер </span><br>
+					<span class="description">оформление полиграфической продукции и наружной рекламы, разработка графических элементов, баннеров для web-сайта согласно фирменному стилю компании.</span>
+				</td>
+				<td>июнь 2012 г. - апрель 2014 г.</td>
+			</tr>
+			<tr>
+				<td>ПриватБанк</td>
+				<td><span class="prof"> дизайнер </span><br>
+					<span class="description">оформление полиграфической продукции и наружной рекламы.</span>
+				</td>
+				<td>июль 2007 г. - июнь 2012 г.</td>
+			</tr>
+			<tr>
+				<td>“Типография “Украина“, полиграфическое производство</td>
+				<td><span class="prof"> дизайнер </span><br>	
+					<span class="description">верстка журналов, каталогов, подготовка макетов к печати.</span>
+				</td>
+				<td>февраль 2002 г. - июль 2007 г.</td>
+			</tr>
+		</table>
+	</section>
+
 	<section class="hobby">
 		<h2>Увлечения:</h2>
-		<p>Фигурное катание, балет, живопись, рисунок, фотография.</p>
+		<ul>
+			<li>Фигурное катание</li>
+			<li>балет</li>
+			<li>живопись</li>
+			<li>рисунок</li>
+			<li>фотография</li>
+		</ul>
 	</section>
 </body>
 </html>
