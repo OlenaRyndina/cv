@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Olena Ryndina CV</title>
+	<link rel="stylesheet" href="cv.css">
+</head>
+<body>
+
+	<section class="profInfo">
+		<div class="info">	
+		    <img class="photo" src="me.jpg">
+		    <div class="contacts">
+	            <h1>Елена Рындина</h1>
+	            <div>
+		            <a href="mailto:olenaryndina1111@gmail.com">e-mail: olenaryndina1111@gmail.com</a><br>	
+		            <a href="tel: 067 631 44 47">tel: 067 631 44 47</a>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="profSkills">	
+		    <h2>Профессиональные навыки:</h2>
+		    Frontend-разработчик (JUNIOR).
+		    Предыдущий опыт работы - дизайнер.
+		    Английский язык - upper-intermediate.
+		    <ul>
+			    <li>JavaScript, TypeScript, HTML, CSS</li>
+			    <li>Angular</li>
+			    <li>Angular Material, bootstrap</li>
+			    <li>Adobe Photoshop, Illustrator, InDesign</li>
+			    <li>GIT</li>
+			    <li>Webpack, Gulp</li>
+			    <li>Node.JS</li>
+		    </ul>
+		</div>
+	</section>
+
+	<section class="education">
+		<table>
+			<caption>Образование:</caption>
+				<th>Учебный курс</th>
+				<th>год</th>
+				<tr>
+					<td><span class="prof">	WebUI Development</span> <br>	
+						<span class="description">	IT Академия SoftServe</span>
+					</td>
+					<td>январь 2018 г. - апрель 2018 г.</td>
+				</tr>
+				<tr>
+					<td><span class="prof">Front-end разработка</span> <br>
+					    <span class="description">учебный центр LevelUp</span>
+					</td>
+					<td>март 2017 г. - ноябрь 2017 г.</td>
+				</tr>
+				<tr>
+					<td><span class="prof">Живопись</span> <br>
+					    <span class="description">Студия изобразительного искусства “Элит-альтернатива“.</span>
+					</td>
+					<td>2006 г. - 2009 г.</td>
+				</tr>
+				<tr>
+					<td><span class="prof">Дизайн</span> <br>
+					    <span class="description">гуманитарная Академия им. Кручининой</span>
+					</td>
+					<td>2005 г. - 2009 г.</td>
+				</tr>
+		</table>
+	</section>
+
+	<section class="workExperience">
+		<table>
+			<caption>Проекты:</caption>
+			<th>Название</th>
+			<th>Описание</th>
+			<th>Технологии</th>
+			<tr>
+				<td> 
+					<span class="title">Приложение "Органайзер".</span> 
+					<a 
+					    href="https://github.com/OlenaRyndina/Organizer"
+					    target="_blank">
+					    Код на github
+					</a>
+				</td>
+				<td>
+				    <p class="description">Приложение состоит из 3 компонентов: селектор по месяцам, календарь, записи. <br>
+				    При загрузке приложения календарная сетка выстраивается согласно текущей дате. Компоненты общаются между собой через сервис даты и сервис данных. Данные списка дел хранятся в базе данных Firebase. Компонент Записи обновляется при нажатии нужной даты в компоненте Календаря. Данные из компонента Записи можно добалять, корректировать и удалять. <br>
+				    Превью приложения: 
+				    <img 
+				        class="preview-img" 
+				        src="https://user-images.githubusercontent.com/101415615/178938063-d54c4a49-9070-4008-a5c9-ed6051abc976.jpg" 
+				        alt="preview Organizer App">
+				    <img 
+				        class="preview-img" 
+				        src="https://user-images.githubusercontent.com/101415615/178938118-10b63abe-d4e6-4462-aea3-68c3585e0bc8.jpg" 
+				        alt="preview Organizer App">
+				    </p>
+				</td>
+				<td>Angular, Bootstrap, moment.js</td>
+			</tr>
+			<tr>
+				<td>
+					<span class="title">Приложение<br> "Домашняя бухгалтерия"</span>
+					<a 
+					    href="https://github.com/OlenaRyndina/home-money"
+					    target="_blank">
+					    Код на github
+					</a>
+				</td>
+				<td>
+					<p class="description">Вход в приложение осуществляется через форму авторизации.
+					<img 
+				        class="preview-img" 
+				        src="https://user-images.githubusercontent.com/101415615/178948865-a0071f80-bc18-4b53-b5d8-7e64bd6434a6.jpg" 
+				        alt="preview home-money App">
+				    <br>
+				    Регистрация пользователя:
+				    <br>
+				    <img 
+				        class="preview-img" 
+				        src="https://user-images.githubusercontent.com/101415615/178953624-7786c9a5-1310-47e4-bc50-b4c7c5903b59.jpg" 
+				        alt="preview home-money App">
+
+				    </p>
+					<p class="description">При авторизации приложение подгружает данные пользователя с сервера (для проекта используется json-server)<br> Приложение состоит из 4 модулей (страниц):</p>
+						<ul class="description">
+							<li>Счет - при открытии осуществляется запрос актуальных курсов валют, остаток на счету пользователя пересчитывается по текущему курсу:
+							<img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178966886-43c7f501-0d5e-4f54-aef2-ab75f8d69867.jpg" 
+				                alt="preview home-money App">
+							</li>
+							<li>История
+								<img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178949152-becee1ae-eb3d-4db3-b08c-b4036057ec67.jpg" 
+				                alt="preview home-money App">
+				            </li>
+							Динамический график, отображающий текущие траты (компонент Фильтр позволяет выстраивать график согласно выбранным данным):
+							<img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178949589-016a85f6-9cdd-42e4-a839-6e2d50abe3cd.jpg" 
+				                alt="preview home-money App">                            
+							Выгрузка доходов/расходов в таблицу. Фильтр по параметрам таблиц (сумма, дата, категория, тип трат):
+                            <img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178949615-4c166336-1ace-445c-b199-9199427f6c15.jpg" 
+				                alt="preview home-money App">   
+						    </li>
+							<li>Планирование - прогресс-бар, отображающий долю расходов и остатка на счету.
+							<img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178949942-b81a7f95-b5a3-462c-815e-8800dabbc1b5.jpg" 
+				                alt="preview home-money App">
+				            </li> 
+							<li>Запись - формы для добавления, редактирования данных пользователя. Данные отправляются на сервер:
+								<img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178951322-f8aa51ec-005e-446d-bf2c-290b1609a5d8.jpg" 
+				                alt="preview home-money App">
+							</li>
+						</ul>	
+						<p class="description">Компоненты обмениваются данными между собой и сервером через специальные сервисы. Реализованы реактивная и шаблонная валидации в формах. Оптимизация: ленивая загрузка, предзагрузка модулей.</p>				
+				</td>
+				<td>Angular, Bootstrap, moment.js, 3d</td>
+			</tr>
+			<tr>
+				<td>
+					<span class="title">UI-компоненты для интернет-магазина</span>
+				    <a 
+					    href="https://github.com/OlenaRyndina/ui-components"
+					    target="_blank">
+					    Код на github
+					</a>
+				</td>
+				<td>
+					<ul class="description">
+						<li>карточка товара: слайдер изображений товара:<br>
+							<img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178964409-820e3b84-9e56-4b34-9b60-c37c94c48637.jpg" 
+				                alt="preview cart">
+						</li>
+						<li>фильтр цены (с помощью библиотеки noUiSlider). Фильтр фиксируется относительно экрана при скролле страницы:<br>
+                            <img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178964997-e4234106-5594-4a2b-84db-659e968070e4.jpg" 
+				                alt="preview range-slider">
+						</li>
+						<li>плагин модального окна:<br>
+							<img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178964606-8dede775-2dee-4e47-8581-d76af35a01a1.jpg" 
+				                alt="preview modal">
+						</li>
+						<li>корзина товаров (с кастомным скроллом с использованием библиотеки simplebar):<br>
+                            <img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178963872-ba123eef-eab3-4447-a7c8-fc26085f7e76.jpg" 
+				                alt="preview cart">
+						</li>
+						<li>табы:<br>
+							<img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178964830-038022c4-56e4-42ef-bfa9-acb94c68d52b.jpg" 
+				                alt="preview timer">
+						</li>
+						<li>таймер обратного отсчета:<br>
+							<img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178962886-e07abc7e-9d21-4cbe-96c5-6abb95101593.jpg" 
+				                alt="preview timer">
+						</li>
+						<li>слайдер с вертикальным превью (с помощью библиотеки swiperjs):<br>
+                            <img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178965201-170dfbd7-27dd-46a0-b96f-fb9c9ad69992.jpg" 
+				                alt="preview vertical slider">
+						</li>
+						<li>аккордион (через details, через js с анимацией):<br>
+							<img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178965564-8ff4b691-646f-4b7f-b212-34e8e7107dc1.jpg" 
+				                alt="preview vertical slider">
+				        </li>
+						<li>степпер:<br>
+							<img 
+				                class="preview-img" 
+				                src="https://user-images.githubusercontent.com/101415615/178963389-f6f32355-d978-490e-bf2d-ba00ad4e0591.jpg" 
+				                alt="preview stepper">
+						</li>
+					</ul>
+				</td>
+				<td>HTML, CSS (БЭМ), JavaScript, плагины: noUiSlider, simplebar, swiperjs </td>
+			</tr>
+		</table>
+	</section>	
+
+	<section class="hobby">
+		<h2>Увлечения:</h2>
+		<p> фигурное катание, балет, живопись, рисунок, фотография</p>
+	</section>
+</body>
+</html>
