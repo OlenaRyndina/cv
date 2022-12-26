@@ -21,17 +21,17 @@
 	    </div>
 	    <div class="profSkills">	
 		    <h2>Профессиональные навыки:</h2>
-		    Frontend-разработчик (JUNIOR).
-		    Предыдущий опыт работы - дизайнер.
-		    Английский язык - upper-intermediate.
-		    <ul>
+		    <p>Frontend-разработчик (JUNIOR). </p>
+		    <p>Предыдущий опыт работы - дизайнер. (Сотрудничество с компаниями: ПриватБанк, Алло, Простор, DAOSUN, ТОП, Медсервис)</p>
+		    <p>Английский язык - upper-intermediate.</p>
+		    <ul> Навыки:
 			    <li>JavaScript, TypeScript, HTML, CSS</li>
 			    <li>Angular</li>
 			    <li>Angular Material, bootstrap</li>
 			    <li>Adobe Photoshop, Illustrator, InDesign</li>
 			    <li>GIT</li>
 			    <li>Webpack, Gulp</li>
-			    <li>Node.JS</li>
+			    <li>Nest JS</li>
 		    </ul>
 		</div>
 	</section>
@@ -69,173 +69,58 @@
 	</section>
 
 	<section class="workExperience">
-		<table>
-			<caption>Проекты:</caption>
-			<th>Название</th>
-			<th>Описание</th>
-			<th>Технологии</th>
-			<tr>
-				<td> 
-					<span class="title">Приложение "Органайзер".</span> 
-					<a 
-					    href="https://github.com/OlenaRyndina/Organizer"
-					    target="_blank">
-					    Код на github
-					</a>
-				</td>
-				<td>
-				    <p class="description">Приложение состоит из 3 компонентов: селектор по месяцам, календарь, записи. <br>
-				    При загрузке приложения календарная сетка выстраивается согласно текущей дате. Компоненты общаются между собой через сервис даты и сервис данных. Данные списка дел хранятся в базе данных Firebase. Компонент Записи обновляется при нажатии нужной даты в компоненте Календаря. Данные из компонента Записи можно добалять, корректировать и удалять. <br>
-				    Превью приложения: 
-				    <img 
-				        class="preview-img" 
-				        src="https://user-images.githubusercontent.com/101415615/178938063-d54c4a49-9070-4008-a5c9-ed6051abc976.jpg" 
-				        alt="preview Organizer App">
-				    <img 
-				        class="preview-img" 
-				        src="https://user-images.githubusercontent.com/101415615/178938118-10b63abe-d4e6-4462-aea3-68c3585e0bc8.jpg" 
-				        alt="preview Organizer App">
-				    </p>
-				</td>
-				<td>Angular, Bootstrap, moment.js</td>
-			</tr>
-			<tr>
-				<td>
-					<span class="title">Приложение<br> "Домашняя бухгалтерия"</span>
-					<a 
-					    href="https://github.com/OlenaRyndina/home-money"
-					    target="_blank">
-					    Код на github
-					</a>
-				</td>
-				<td>
-					<p class="description">Вход в приложение осуществляется через форму авторизации.
-					<img 
-				        class="preview-img" 
-				        src="https://user-images.githubusercontent.com/101415615/178948865-a0071f80-bc18-4b53-b5d8-7e64bd6434a6.jpg" 
-				        alt="preview home-money App">
-				    <br>
-				    Регистрация пользователя:
-				    <br>
-				    <img 
-				        class="preview-img" 
-				        src="https://user-images.githubusercontent.com/101415615/178953624-7786c9a5-1310-47e4-bc50-b4c7c5903b59.jpg" 
-				        alt="preview home-money App">
-
-				    </p>
-					<p class="description">При авторизации приложение подгружает данные пользователя с сервера (для проекта используется json-server)<br> Приложение состоит из 4 модулей (страниц):</p>
-						<ul class="description">
-							<li>Счет - при открытии осуществляется запрос актуальных курсов валют, остаток на счету пользователя пересчитывается по текущему курсу:
-							<img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178966886-43c7f501-0d5e-4f54-aef2-ab75f8d69867.jpg" 
-				                alt="preview home-money App">
-							</li>
-							<li>История
-								<img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178949152-becee1ae-eb3d-4db3-b08c-b4036057ec67.jpg" 
-				                alt="preview home-money App">
-				            </li>
-							Динамический график, отображающий текущие траты (компонент Фильтр позволяет выстраивать график согласно выбранным данным):
-							<img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178949589-016a85f6-9cdd-42e4-a839-6e2d50abe3cd.jpg" 
-				                alt="preview home-money App">                            
-							Выгрузка доходов/расходов в таблицу. Фильтр по параметрам таблиц (сумма, дата, категория, тип трат):
-                            <img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178949615-4c166336-1ace-445c-b199-9199427f6c15.jpg" 
-				                alt="preview home-money App">   
-						    </li>
-							<li>Планирование - прогресс-бар, отображающий долю расходов и остатка на счету.
-							<img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178949942-b81a7f95-b5a3-462c-815e-8800dabbc1b5.jpg" 
-				                alt="preview home-money App">
-				            </li> 
-							<li>Запись - формы для добавления, редактирования данных пользователя. Данные отправляются на сервер:
-								<img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178951322-f8aa51ec-005e-446d-bf2c-290b1609a5d8.jpg" 
-				                alt="preview home-money App">
-							</li>
-						</ul>	
-						<p class="description">Компоненты обмениваются данными между собой и сервером через специальные сервисы. Реализованы реактивная и шаблонная валидации в формах. Оптимизация: ленивая загрузка, предзагрузка модулей.</p>				
-				</td>
-				<td>Angular, Bootstrap, moment.js, 3d</td>
-			</tr>
-			<tr>
-				<td>
-					<span class="title">UI-компоненты для интернет-магазина</span>
-				    <a 
-					    href="https://github.com/OlenaRyndina/ui-components"
-					    target="_blank">
-					    Код на github
-					</a>
-				</td>
-				<td>
-					<ul class="description">
-						<li>карточка товара: слайдер изображений товара:<br>
-							<img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178964409-820e3b84-9e56-4b34-9b60-c37c94c48637.jpg" 
-				                alt="preview cart">
-						</li>
-						<li>фильтр цены (с помощью библиотеки noUiSlider). Фильтр фиксируется относительно экрана при скролле страницы:<br>
-                            <img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178964997-e4234106-5594-4a2b-84db-659e968070e4.jpg" 
-				                alt="preview range-slider">
-						</li>
-						<li>плагин модального окна:<br>
-							<img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178964606-8dede775-2dee-4e47-8581-d76af35a01a1.jpg" 
-				                alt="preview modal">
-						</li>
-						<li>корзина товаров (с кастомным скроллом с использованием библиотеки simplebar):<br>
-                            <img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178963872-ba123eef-eab3-4447-a7c8-fc26085f7e76.jpg" 
-				                alt="preview cart">
-						</li>
-						<li>табы:<br>
-							<img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178964830-038022c4-56e4-42ef-bfa9-acb94c68d52b.jpg" 
-				                alt="preview timer">
-						</li>
-						<li>таймер обратного отсчета:<br>
-							<img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178962886-e07abc7e-9d21-4cbe-96c5-6abb95101593.jpg" 
-				                alt="preview timer">
-						</li>
-						<li>слайдер с вертикальным превью (с помощью библиотеки swiperjs):<br>
-                            <img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178965201-170dfbd7-27dd-46a0-b96f-fb9c9ad69992.jpg" 
-				                alt="preview vertical slider">
-						</li>
-						<li>аккордион (через details, через js с анимацией):<br>
-							<img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178965564-8ff4b691-646f-4b7f-b212-34e8e7107dc1.jpg" 
-				                alt="preview vertical slider">
-				        </li>
-						<li>степпер:<br>
-							<img 
-				                class="preview-img" 
-				                src="https://user-images.githubusercontent.com/101415615/178963389-f6f32355-d978-490e-bf2d-ba00ad4e0591.jpg" 
-				                alt="preview stepper">
-						</li>
-					</ul>
-				</td>
-				<td>HTML, CSS (БЭМ), JavaScript, плагины: noUiSlider, simplebar, swiperjs </td>
-			</tr>
-		</table>
-	</section>	
+        <h2>Академический проект:
+        </h2>
+        <p>Приложение Discovery country. Приложение для туристов и любителей изучать свой город. Информация по городским достопримечательностям: контактная, как добраться, отзывы, рейтинг популярности. </p>
+        <h3>Используемые технологии:</h3>
+        <ul>
+        	<li>frontend: Angular 13</li>
+        	<li>backend: nest JS</li>
+        	<li>База данных: mySQL (typeorm - библиотека для работы с БД)</li>
+        	<li>XAMPP - интсрумент для работы с БД</li>
+        	<li>Postman - для работы с запросами, которые имитируют запросы Клиента на Сервер </li>
+        	<li>NGRX - контроль состояния приложения</li>
+        </ul>
+        <h3>В проекте реализованы следующие задачи:</h3>
+        <ul>
+        	<li>lasy loading модулей</li>
+        	<li>система аутентификации и авторизации пользователя</li>
+        	<li>JWT-токен с обновлением каждые 15 мин</li>
+        	<li>пароли шифруются с помощью bcrypt</li>
+        	<li>при регистрации пользователя происходит асинхронная валидация (проверка логина на аутентичность)</li>
+        	<li>данные пользователя при авторизации сохраняются в localStorage: при обновлении страниц или открытии приложения в новой вкладке данные о пользователе хранятся в течении 15 мин.</li>
+        	<li>приложение отображает данные в зависимости от роли пользователя (авторизован или нет)</li>
+        	<li>авторизованный пользователь может корректировать данные, добавлять новые и отправлять их на сервер, сохраняя их в БД. Неавторизованный пользователь получает данные без возможности их редактировать, только просмотр.</li>
+        	<li>реализован фильтр данных по таблице</li>
+        	<li>реализован компонент "Всплывающее сообщение", оповещающие пользователя о результате его действий: успех, ошибка или предупреждение.</li>
+        	<li>реализован компонент Like/dislike: авторизованный пользователь может кликнуть на иконку с сердечком и добавить +1 к счетчику "нравится". При повторном клике происходит уменьшение счетчика "нравится" на -1. Данные уходят на сервер, автоматически обновляясь в шаблоне Клиента.</li>
+        </ul>
+        <p>Ссылка на проект на github: 
+            <a 
+			    href="https://github.com/OlenaRyndina/ng-blog"
+			    target="_blank">
+			    frontend часть
+			</a> и
+		    <a 
+			    href="https://github.com/OlenaRyndina/blog-nest"
+			    target="_blank">
+			    backend часть
+			</a>
+		</p>
+		<h3>Превью приложения:</h3>
+		<img 
+		    class="preview-img" 
+		    src="https://user-images.githubusercontent.com/101415615/178938063-d54c4a49-9070-4008-a5c9-ed6051abc976.jpg" 
+		    alt="preview App Discovery country">
+		<img 
+		    class="preview-img" 
+		    src="https://user-images.githubusercontent.com/101415615/178938118-10b63abe-d4e6-4462-aea3-68c3585e0bc8.jpg" 
+		    alt="preview App Discovery country">
+		    <img 
+		    class="preview-img" 
+		    src="https://user-images.githubusercontent.com/101415615/178938118-10b63abe-d4e6-4462-aea3-68c3585e0bc8.jpg" 
+		    alt="preview App Discovery country">
+	</section>
 
 	<section class="hobby">
 		<h2>Увлечения:</h2>
